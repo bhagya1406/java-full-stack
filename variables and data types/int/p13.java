@@ -1,13 +1,10 @@
 class Demo{
 	public static void main(String[]args){
-	int a = 10;
-	int b = 20;
-	a=b;
-	b=a;
-	System.out.println(a);
-	System.out.println(b);
+		int a = 10.5;
+		System.out.println(a);
 	}
 }
 
-O/p:-20
-     20
+o/p:-compilation error: incompatible types: possible lossy conversion from double to int
+        int a = 10.5;
+                ^

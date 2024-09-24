@@ -1,11 +1,12 @@
 class Demo{
 	public static void main(String[]args){
-	int a = 10;
-	System.out.println(a);
-	int b = 2;
-	System.out.println(a);
+		int a = 10;
+		int b = 20;
+		a=b;
+		System.out.println(a);
+		System.out.println(b);
 	}
 }
 
-O/p:-10
-     10
+O/p:-20
+     20

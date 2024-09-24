@@ -1,12 +1,11 @@
 class Demo{
-	public static void main(String[]args){
-	int a = 10;
-	int b = 20;
-	a=b;
-	System.out.println(a);
-	System.out.println(b);
+	public static void main (String[]args){
+		int a = 10;
+		System.out.println(a);
+		System.out.println(b);
 	}
 }
 
-O/p:-20
-     20
+O/p:-compilation error: cannot find symbol
+        System.out.println(b);
+                           ^

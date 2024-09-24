@@ -1,10 +1,13 @@
-class DEmo{
+class Demo{
 	public static void main(String[]args){
-	int a = 10.5f;
-	System.out.println(a);
+		int a = 10;
+		int b = 20;
+		a=b;
+		b=a;
+		System.out.println(a);
+		sSystem.out.println(b);
 	}
 }
 
-O/p:-compilation error: incompatible types: possible lossy conversion from float to int
-        int a = 10.5f;
-                ^
+O/p:-20
+     20

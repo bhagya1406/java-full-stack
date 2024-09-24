@@ -1,11 +1,11 @@
 class Demo{
 	public static void main (String[]args){
-	int a = 10;
-	if(a%2==0){
-		System.out.println("this is even numbre");
-	}else{
-		System.out.println("this is odd number");
-	}
+		int a = 10;
+		if(a%2==0){
+			System.out.println("this is even numbre");
+		}else{
+			System.out.println("this is odd number");
+		}
 	}
 }
 
